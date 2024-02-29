@@ -6,4 +6,4 @@ choco pack
 choco push --source https://push.chocolatey.org/
 
 REM Remove nupkg
-delete /q *.nupkg
+del /q *.nupkg
